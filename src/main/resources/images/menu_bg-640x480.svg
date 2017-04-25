@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="640px"
+   height="480px"
+   id="svg1872"
+   sodipodi:version="0.32"
+   inkscape:version="0.44"
+   sodipodi:docbase="/home/pvg/workspace/EEClone/resources/images"
+   sodipodi:docname="menu_bg-640x480.svg">
+  <defs
+     id="defs1874">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4729">
+      <stop
+         style="stop-color:yellow;stop-opacity:1;"
+         offset="0"
+         id="stop4731" />
+      <stop
+         style="stop-color:yellow;stop-opacity:0;"
+         offset="1"
+         id="stop4733" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3834">
+      <stop
+         style="stop-color:black;stop-opacity:1;"
+         offset="0"
+         id="stop3836" />
+      <stop
+         id="stop3842"
+         offset="0.5"
+         style="stop-color:black;stop-opacity:0.49803922;" />
+      <stop
+         style="stop-color:black;stop-opacity:0;"
+         offset="1"
+         id="stop3838" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4729"
+       id="radialGradient4735"
+       cx="322.04965"
+       cy="244.43262"
+       fx="322.04965"
+       fy="244.43262"
+       r="323.34042"
+       gradientTransform="matrix(-0.421682,0.559072,-0.898173,-0.677456,677.395,229.976)"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.77472527"
+     inkscape:cx="320"
+     inkscape:cy="234.56123"
+     inkscape:current-layer="layer1"
+     inkscape:document-units="px"
+     inkscape:window-width="849"
+     inkscape:window-height="590"
+     inkscape:window-x="284"
+     inkscape:window-y="91" />
+  <metadata
+     id="metadata1877">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Background"
+     id="layer2"
+     inkscape:groupmode="layer"
+     style="opacity:1"
+     sodipodi:insensitive="true">
+    <rect
+       id="rect2931"
+       width="644.0993"
+       height="481.46097"
+       x="-1.2907802"
+       y="-0.1702157"
+       style="fill:url(#radialGradient4735);fill-opacity:1;fill-rule:nonzero" />
+  </g>
+  <g
+     inkscape:label="Text"
+     style="opacity:1"
+     id="layer1"
+     inkscape:groupmode="layer">
+    <text
+       xml:space="preserve"
+       style="font-size:72px;font-style:normal;font-weight:normal;fill:black;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Larabiefont"
+       id="text1880"
+       y="118.58157"
+       x="194.90781"><tspan
+         sodipodi:role="line"
+         id="tspan1882"
+         y="118.58157"
+         x="194.90781">EEClone</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:32px;font-style:normal;font-weight:normal;text-align:center;text-anchor:middle;fill:black;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Larabiefont"
+       id="text1888"
+       y="214.0993"
+       x="333.02124"><tspan
+         sodipodi:role="line"
+         id="tspan1890"
+         y="214.0993"
+         x="333.02124"
+         style="font-size:20px">Paul Gestwicki</tspan><tspan
+         sodipodi:role="line"
+         id="tspan1894"
+         y="239.0993"
+         x="333.02124"
+         style="font-size:20px">Ball State University</tspan><tspan
+         sodipodi:role="line"
+         id="tspan1898"
+         y="264.0993"
+         x="333.02124"
+         style="font-size:20px">www.cs.bsu.edu/~pvg/games/eeclone</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18px;font-style:normal;font-weight:normal;text-align:center;text-anchor:middle;fill:black;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Larabiefont"
+       id="text1900"
+       y="437.40427"
+       x="326.56738"><tspan
+         sodipodi:role="line"
+         id="tspan1902"
+         y="437.40427"
+         x="326.56738">&quot;Where'd the Cheese Go?&quot; by Ween, used with permission</tspan><tspan
+         sodipodi:role="line"
+         id="tspan1904"
+         y="459.90427"
+         x="326.56738">Special thanks to OMEGA</tspan></text>
+    <g
+       id="g1907">
+      <path
+         style="font-size:72px;font-style:normal;font-weight:normal;opacity:0.09090899;fill:black;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Larabiefont"
+         d=""
+         id="text1959" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:18px;font-style:normal;font-weight:normal;fill:black;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Larabiefont"
+       x="320.11349"
+       y="350.922"
+       id="text1890"><tspan
+         sodipodi:role="line"
+         id="tspan1892"
+         x="320.11349"
+         y="350.922"
+         style="text-align:center;text-anchor:middle">Arrow keys to move, space to explode</tspan><tspan
+         sodipodi:role="line"
+         x="320.11349"
+         y="373.422"
+         id="tspan1895"
+         style="text-align:center;text-anchor:middle">PRESS ANY KEY TO BEGIN</tspan></text>
+  </g>
+</svg>

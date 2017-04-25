@@ -1,0 +1,3 @@
+Ambos archivos están en la carpeta "lib"
+mvn install:install-file -Dfile=<rutaDelArchivo jogg-0.0.7.jar> -DgroupId=jogg -DartifactId=jogg -Dversion=0.0.7 -Dpackaging=jar
+mvn install:install-file -Dfile=<rutaDelArchivo jorbis-0.0.15.jar> -DgroupId=jorbis -DartifactId=jorbis -Dversion=0.0.15 -Dpackaging=jar

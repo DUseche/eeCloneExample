@@ -1,0 +1,10 @@
+<resourcelist>
+
+<image name="menu_bg" resource="images/menu_bg-640x480.png"/>
+<image name="game_bg" resource="images/game_bg-640x480.png"/>
+
+<music name="game_music" resource="music/cheese.ogg"/>
+
+<sound name="explosion" resource="sounds/explosion.wav"/>
+
+</resourcelist>
