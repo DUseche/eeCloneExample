@@ -296,6 +296,7 @@ public final class PlayerSprite implements Sprite.Player {
     setState(SPAWNING_STATE);
   }
 
+  @Override
   public Object accept(Sprite.Visitor v, Object arg) {
     return v.visit(this,arg);
   }
@@ -326,40 +327,49 @@ public final class PlayerSprite implements Sprite.Player {
    * ISsue the explode command.
    * (Ignored in many states.)
    */
+  @Override
   public void explode() {
     state.explode();
   }
 
+  @Override
   public void draw(Graphics2D g) {
     // Draw according to the current state
     state.draw(g);
   }
 
+  @Override
   public void update() {
     // Update according to the current state
     state.update();
   }
 
+  @Override
   public float height() {
     return diameter;
   }
 
+  @Override
   public final Point2D location() {
     return new Point2D.Float(x(), y());
   }
 
+  @Override
   public final Dimension2D size() {
     return new FloatDimension(width(), height());
   }
 
+  @Override
   public float width() {
     return diameter;
   }
 
+  @Override
   public float x() {
     return x;
   }
 
+  @Override
   public float y() {
     return y;
   }
@@ -368,6 +378,7 @@ public final class PlayerSprite implements Sprite.Player {
    * Get the number of lives remaining for this player
    * @return lives remaining
    */
+  @Override
   public int livesRemaining() { return lives; }
   
   /**
@@ -375,6 +386,7 @@ public final class PlayerSprite implements Sprite.Player {
    * 
    * @param d
    */
+  @Override
   public void move(MovementDirection d) {
     this.direction = d;
   }
@@ -397,10 +409,12 @@ public final class PlayerSprite implements Sprite.Player {
     }
   }
 
+  @Override
   public void markForRemoval() {
     markedForRemoval = true;
   }
 
+  @Override
   public boolean isMarkedForRemoval() { return markedForRemoval; }
   
   /** 

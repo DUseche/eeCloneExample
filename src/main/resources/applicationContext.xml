@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-3.0.xsd">
+	
+    <bean id="eeClonePanel" class="edu.bsu.cs639.eeclone.EEClonePanel">
+        <constructor-arg value="16666666"/>
+        <property name="game" ref="game"></property>
+    </bean>
+    
+    <bean id="game" class="edu.bsu.cs639.eeclone.Game">
+        <constructor-arg ref="eeClonePanel"/>
+        <property name="player" ref="playerSpriteClasical"></property>
+        <property name="score" ref="scoreClasical"></property>
+    </bean>
+    
+    <bean id="playerSpriteClasical" class="edu.bsu.cs639.eeclone.sprites.PlayerSprite"></bean>
+    <bean id="scoreClasical" class="edu.bsu.cs639.eeclone.ScoreClasic"></bean>
+</beans>

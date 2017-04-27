@@ -50,7 +50,11 @@ public interface Sprite {
    * The player's sprite
    * @author pvg
    */
-  public interface Player extends Sprite {}
+  public interface Player extends Sprite {
+      public void explode();
+      public void move(PlayerSprite.MovementDirection d);
+      public int livesRemaining();
+  }
   
   /**
    * A noninteractive sprite, such as HUD elements.
